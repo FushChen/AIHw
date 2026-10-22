@@ -1,0 +1,29 @@
+# === Firmware build output (ESP-IDF / Arduino / PlatformIO) ===
+/build/
+/.pio/
+/.vscode/.browse.c_cpp.db*
+/.cache/
+/sdkconfig
+/sdkconfig.old
+/sdkconfig.defaults.*
+*.elf
+*.bin
+*.o
+*.a
+*.map
+*.hex
+*.pyc
+
+# === IDE / editor ===
+/.idea/
+*.iml
+/.vscode/*
+!/.vscode/extensions.json
+!/.vscode/settings.json
+.DS_Store
+Thumbs.db
+
+# === OS / misc ===
+*.log
+*~
+*.swp
